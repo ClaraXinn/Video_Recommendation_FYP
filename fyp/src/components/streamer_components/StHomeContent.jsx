@@ -544,7 +544,7 @@ if (!isOnline && actionType === "delete") {
 
   useEffect(() => {
     const syncRecommendedQueue = async () => {
-      const queued = window.electron?.getRawRecommendedQueue?.() || [];
+      const queued = window.electron?.getRecommendedMovies?.() || [];
       if (!queued.length) return;
   
       for (const action of queued) {

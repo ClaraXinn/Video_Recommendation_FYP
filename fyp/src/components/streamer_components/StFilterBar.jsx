@@ -64,7 +64,7 @@ const StFilterBar = ({ searchQuery, setSearchQuery, onSearch }) => {
   return (
     <div className="w-full flex flex-col items-center px-4 mt-8" ref={wrapperRef}>
       {/* Center the heading */}
-      <h1 className="text-xl font-bold text-gray-700 mb-3 text-center">
+      <h1 className="text-xl font-bold text-gray-700 mb-3 text-center dark:text-white">
         What would you like to watch?
       </h1>
 

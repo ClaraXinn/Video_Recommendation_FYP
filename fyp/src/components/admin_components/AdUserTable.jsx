@@ -154,7 +154,7 @@ const AdUserTable = ({ searchQuery }) => {
   }
 
   return (
-    <div className="sm:ml-15 mx-auto px-4 py-8 dark:bg-gray-800">
+    <div className="sm:ml-15 mx-auto px-4 py-8 bg-white dark:bg-gray-800">
       <div className="shadow rounded-lg overflow-hidden dark:bg-gray-800">
         <table className="min-w-full overflow-hidden">
           <thead>

@@ -91,7 +91,7 @@ const AdMovieContent = ({ searchQuery }) => {
   }
 
   return (
-    <div className="sm:ml-40 px-4 sm:px-8 dark:bg-gray-800 dark:border-gray-700 mr-50">
+    <div className="sm:ml-40 px-4 sm:px-8 dark:bg-gray-800 bg-white dark:border-gray-700 mr-50">
       {/* 🎬 Movie Grid */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {movies.map((movie) => (
